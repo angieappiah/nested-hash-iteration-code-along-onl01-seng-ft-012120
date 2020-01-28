@@ -39,6 +39,7 @@ contacts.each do |person,contacts_details_hash|
   def remove_strawberry (contacts)
     contacts.each do |person,contacts_details_hash|
       if person == "Freddy Mercury"
+        
     
 
 
