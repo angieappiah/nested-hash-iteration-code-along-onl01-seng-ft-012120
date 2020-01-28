@@ -26,5 +26,8 @@ def remove_strawberry(contacts)
     email: "freddy@mercury.com", favorite_ice_cream_flavors: ["strawberry","cookie dough", "mint chip"]
   }
 }
+contacts.each do |person,contacts_details|
+  binding.pry
+end
 
 end
