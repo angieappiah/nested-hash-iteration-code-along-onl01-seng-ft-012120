@@ -26,8 +26,13 @@ def remove_strawberry(contacts)
     email: "freddy@mercury.com", favorite_ice_cream_flavors: ["strawberry","cookie dough", "mint chip"]
   }
 }
-contacts.each do |person,contacts_details|
-  binding.pry
-end
+contacts.each do |person,contacts_details_hash|
+  if person == "Freddy Mercury"
+    contacts_details_hash
+    .each do |attribute, data|
+      binding.pry
+    end
+  end
+
 
 end
